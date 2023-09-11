@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: black;
+}
+
+.fa-bars{
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .logo{
+    display: flex;
+    width: 200px;
+
+}
+header .logo img{
+    width: 100%;
+}
+
+
+
+.header .nav-links{
+    display: none;
+    text-decoration: none;
+    
+}
+
+.header .signin button{
+    background-color: #3A68B8;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    border-color: transparent;
+    display: inline-flex;
+   display: none;
+}
+
+section.introduction .intro-left-side h5{
+   color: #3A68B8; 
+   font-size: 15px;
+}
+
+section.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.introduction .intro-left-side h1{
+    font-size: 30px;
+    color: #fff;
+}
+section.introduction .intro-left-side p{
+    font-size: 13px;
+    color: #ccc;
+}
+
+section.introduction .button  {
+    display: flex;
+    justify-content: center;
+    
+}
+.introduction .button #but{
+    padding: 10px;
+    background-color: #3A68B8;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.introduction .button #but2 {
+    padding: 4px;
+    background-color: #3A68B8;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.introduction .button #but2 img{
+    width: 9px;
+    
+    
+}
+
+
+section.introduction .intro-right-side{
+width: 300px;
+}
+
+section.introduction .intro-right-side img{
+    width: 100%;
+}
+
+
+
+@media(min-width:767px) and (max-width:860px) {
+    .header .logo{
+        width: 400px;
+    }
+    .header .logo img{
+        width: 100%;
+    }
+
+     .header .signin button{
+        display: flex;
+     }
+
+     
+
+     section.introduction .intro-left-side h5 {
+        font-size: 25px;
+        
+
+     }
+     section.introduction .intro-left-side h1{
+        font-size: 50px;
+     }
+
+     section.introduction .intro-left-side p{
+        font-size: 20px;
+    }
+
+    section.introduction .intro-right-side {
+        width: 500px;
+    }
+
+    section.introduction .intro-right-side img{
+        width: 100%;
+    }
+
+   
+
+}
+
+@media(min-width:851px) {
+
+    .header .logo{
+        width: 400px;
+    }
+
+    .header .logo img{
+        width: 100%;
+    }
+    
+    .header .nav-links{
+        display: flex;
+        color: #fff;
+        font-size: 35px;
+        text-decoration: none;
+
+        
+    }
+
+    .header .signin button{
+        display: flex;
+        
+    }
+
+    .fa-bars{
+        display: none;
+    }
+
+    section.introduction {
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+    justify-content: space-between;
+        
+    }
+
+    section.introduction .intro-left-side{
+        align-items: flex-start;
+    }
+
+    section.introduction .intro-left-side h5{
+        
+        font-size: 25px;
+    }
+
+    section.introduction .intro-left-side h1{
+        font-size: 65px;
+    }
+
+    section.introduction .intro-left-side p{
+        font-size: 25px;
+    }
+
+    section.introduction .intro-left-side .button{
+        display: flex;
+       justify-content: flex-start;
+        
+    }  
+
+    section.introduction .intro-right-side{
+       width: 560px; 
+    }
+
+    section.introduction .intro-right-side img{
+        width: 100%;
+    }
+
+    
+    
+
+
+
+
+
+        
+
+}
+
+
+
