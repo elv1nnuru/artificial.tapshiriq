@@ -1,43 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
-.container{
+.container {
     max-width: 1920px;
     margin: 0 auto;
 }
 
-body{
+body {
     background-color: black;
-    font-family: "open-sans";
+    font-family: 'Open Sans', sans-serif;
 }
 
-.fa-bars{
+.fa-bars {
     color: #fff;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.header .logo{
+.header .logo {
     display: flex;
     width: 200px;
 
 }
-header .logo img{
+
+header .logo img {
     width: 100%;
 }
 
-
-
-.header .nav-links{
+.header .nav-links {
     display: none;
-    text-decoration: none;
     
 }
 
-.header .signin button{
+.header .signin button {
     background-color: #3A68B8;
     padding: 15px 30px;
     border-radius: 5px;
@@ -45,41 +43,44 @@ header .logo img{
     cursor: pointer;
     border-color: transparent;
     display: inline-flex;
-   display: none;
+    display: none;
 }
 
-section.introduction .intro-left-side h5{
-   color: #3A68B8; 
-   font-size: 15px;
+section.introduction .intro-left-side h5 {
+    color: #3A68B8;
+    font-size: 15px;
 }
 
-section.introduction{
+section.introduction {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-section.introduction .intro-left-side h1{
+section.introduction .intro-left-side h1 {
     font-size: 30px;
     color: #fff;
 }
-section.introduction .intro-left-side p{
+
+section.introduction .intro-left-side p {
     font-size: 13px;
     color: #ccc;
 }
 
-section.introduction .button  {
+section.introduction .button {
     display: flex;
     justify-content: center;
-    
+
 }
-.introduction .button #but{
+
+.introduction .button #but {
     padding: 10px;
     background-color: #3A68B8;
     color: #fff;
     cursor: pointer;
-    
+
 }
+
 .introduction .button #but2 {
     padding: 4px;
     background-color: #3A68B8;
@@ -87,47 +88,173 @@ section.introduction .button  {
     margin-left: 10px;
     cursor: pointer;
 }
-.introduction .button #but2 img{
+
+.introduction .button #but2 img {
     width: 9px;
-    
-    
+
+
 }
 
 
-section.introduction .intro-right-side{
-width: 300px;
+section.introduction .intro-right-side {
+    width: 300px;
 }
 
-section.introduction .intro-right-side img{
+section.introduction .intro-right-side img {
     width: 100%;
 }
+
+.company-logo {
+
+    width: 300px;
+}
+
+.company-logo img {
+    width: 100%;
+}
+
+section.data-science {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+section.data-science .data-left-side {
+    width: 300px;
+}
+
+section.data-science .data-left-side img {
+    width: 100%;
+}
+
+section.data-science .data-right-side h1 {
+    font-size: 25px;
+}
+
+section.data-science .data-right-side button {
+    background-color: #3A68B8;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+section.awards {
+    color: #fff;
+}
+
+section.awards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 10px;
+}
+
+.award {
+    width: 362px;
+    flex: 1 0 362px;
+}
+
+.award {
+    box-shadow: 10px 20px 30px rgba(105, 105, 105, 0.4);
+    width: 362px;
+    border-radius: 10px;
+}
+
+.award:hover {
+    box-shadow: 15px 25px 30px rgba(105, 105, 105, 0.4);
+
+}
+
+section.solutions {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+section.solutions .solution-right-side {
+    width: 300px;
+
+}
+
+section.solutions .solution-right-side img {
+    width: 100%;
+}
+
+footer.footer {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+footer.footer .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+footer.footer .menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .about p {
+    font-size: 15px;
+}
+
+footer.footer h3 {
+    font-size: 17px;
+}
+
+footer.footer a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media(min-width:767px) and (max-width:860px) {
-    .header .logo{
+    .header .logo {
         width: 400px;
     }
-    .header .logo img{
+
+    .header .logo img {
         width: 100%;
     }
 
-     .header .signin button{
+    .header .signin button {
         display: flex;
-     }
+    }
 
-     
 
-     section.introduction .intro-left-side h5 {
+
+    section.introduction .intro-left-side h5 {
         font-size: 25px;
-        
 
-     }
-     section.introduction .intro-left-side h1{
+
+    }
+
+    section.introduction .intro-left-side h1 {
         font-size: 50px;
-     }
+    }
 
-     section.introduction .intro-left-side p{
+    section.introduction .intro-left-side p {
         font-size: 20px;
     }
 
@@ -135,91 +262,240 @@ section.introduction .intro-right-side img{
         width: 500px;
     }
 
-    section.introduction .intro-right-side img{
+    section.introduction .intro-right-side img {
         width: 100%;
     }
 
-   
+    .company-logo {
+        width: 700px;
+    }
+
+    section.data-science .data-left-side {
+        width: 600px;
+        padding: 60px 60px;
+
+    }
+
+    section.data-science .data-right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 70px;
+    }
+
+    section.data-science .data-right-side h1 {
+        font-size: 50px;
+    }
+
+    section.data-science .data-right-side p {
+        font-size: 30px;
+    }
+
+    section.solutions {
+        display: flex;
+        flex-direction: row;
+        padding: 40px 60px;
+    }
+
+    section.solutions .solution-left-side h1 {
+        font-size: 30px;
+    }
+
+    section.solutions .solution-left-side p {
+        font-size: 15px;
+    }
+
+    section.solutions .solution-right-side {
+        width: 900px;
+        margin-top: 100px;
+    }
+
+    footer.footer {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    footer.footer .contact p {
+        font-size: 12px;
+    }
+
+    footer.footer .contact a {
+        font-size: 13px;
+    }
+
+    footer.footer .menu h3 {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    footer.footer a {
+        font-size: 13px;
+        padding: 3px 8px;
+    }
+
+    footer.footer .about p {
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
 
 }
 
 @media(min-width:851px) {
 
-    .header .logo{
+    .header .logo {
         width: 400px;
     }
 
-    .header .logo img{
+    .header .logo img {
         width: 100%;
     }
-    
-    .header .nav-links{
-        display: flex;
-        color: #fff;
+
+    .header .nav-links {
+        display: block;
+        color: white;
         font-size: 35px;
         text-decoration: none;
 
-        
+
     }
 
-    .header .signin button{
+    .header .signin button {
         display: flex;
-        
+
     }
 
-    .fa-bars{
+    .fa-bars {
         display: none;
     }
 
     section.introduction {
         display: flex;
         flex-direction: row;
-       justify-content: center;
-    justify-content: space-between;
-        
+        justify-content: center;
+        justify-content: space-between;
+
     }
 
-    section.introduction .intro-left-side{
+    section.introduction .intro-left-side {
         align-items: flex-start;
     }
 
-    section.introduction .intro-left-side h5{
-        
+    section.introduction .intro-left-side h5 {
+
         font-size: 25px;
     }
 
-    section.introduction .intro-left-side h1{
+    section.introduction .intro-left-side h1 {
         font-size: 65px;
     }
 
-    section.introduction .intro-left-side p{
+    section.introduction .intro-left-side p {
         font-size: 25px;
     }
 
-    section.introduction .intro-left-side .button{
+    section.introduction .intro-left-side .button {
         display: flex;
-       justify-content: flex-start;
-        
-    }  
+        justify-content: flex-start;
 
-    section.introduction .intro-right-side{
-       width: 560px; 
     }
 
-    section.introduction .intro-right-side img{
+    section.introduction .intro-right-side {
+        width: 560px;
+    }
+
+    section.introduction .intro-right-side img {
         width: 100%;
     }
 
-    
-    
+    .company-logo {
+        width: 1200px;
+    }
+
+    section.data-science {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 20px;
+    }
+
+    section.data-science .data-left-side {
+        width: 725px;
+    }
+
+    section.data-science .data-right-side h1 {
+        font-size: 40px;
+    }
+
+    section.data-science .data-right-side p {
+        font-size: 16px;
+    }
+
+    section.solutions {
+        display: flex;
+        flex-direction: row;
+        padding: 40px 30px;
+    }
+
+    section.solutions .solution-left-side h1 {
+        font-size: 40px;
+    }
+
+    section.solutions .solution-left-side p {
+        font-size: 16px;
+    }
+
+    section.solutions .solution-right-side {
+        width: 642px;
+    }
+
+    footer.footer {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 30px;
+    }
+
+    .footer .contact p {
+        font-size: 14px;
+    }
+
+    .footer .menu {
+        padding: 8px 45px;
+        text-align: center;
+        }
+
+    .footer .menu a {
+        font-size: 14px;
+        text-align: center;
+        }
 
 
 
 
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
-
-
-
